@@ -26,7 +26,6 @@ def find_youngest_and_oldest(students: List[Student]):
     if not students:
         print("Список студентов пуст.")
         return
-
     # Инициализируем первого студента как самого старшего и младшего
     oldest = youngest = students[0]
 
